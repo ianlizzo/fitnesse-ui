@@ -55,6 +55,12 @@ pnpm create next-app -e https://github.com/jpedroschmitz/typescript-nextjs-start
 
 ### Development
 
+To install dependencies, run:
+
+```bash
+pnpm install
+```
+
 To start the project locally, run:
 
 ```bash
@@ -62,6 +68,23 @@ pnpm dev
 ```
 
 Open `http://localhost:3000` with your browser to see the result.
+
+### Git
+
+When making a feature or bugfix, make sure you create a branch with the name structure:
+
+`git checkout -b <username>/<frontend-or-backend>/<issue-number>-<branch-description>`
+
+For example, if we were implementing a feature on the frontend it would look like
+
+`ianlizzo/frontend/69-implement-redux-store`
+
+When we are committing message, use the convention `<issue-number> - <commit-description>`. For example:
+
+```
+git add .
+git commit -m "#2 - Adding boilerplate redux code"
+```
 
 ## Testimonials
 

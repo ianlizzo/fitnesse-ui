@@ -42,20 +42,7 @@
 
 ## Quick Start
 
-The best way to start with this template is using [Create Next App](https://nextjs.org/docs/api-reference/create-next-app).
-
-```
-# yarn
-yarn create next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
-# npm
-npx create-next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
-# pnpm
-pnpm create next-app -e https://github.com/jpedroschmitz/typescript-nextjs-starter
-```
-
-### Development
-
-To install dependencies, run:
+To install the project dependencies, run:
 
 ```bash
 pnpm install
@@ -79,33 +66,12 @@ For example, if we were implementing a feature on the frontend it would look lik
 
 `ianlizzo/frontend/69-implement-redux-store`
 
-When we are committing message, use the convention `<issue-number> - <commit-description>`. For example:
+When we are committing message, use the convention `#<issue-number> - <commit-description>`. For example:
 
 ```
 git add .
 git commit -m "#2 - Adding boilerplate redux code"
 ```
-
-## Testimonials
-
-> [**“This starter is by far the best TypeScript starter for Next.js. Feature packed but un-opinionated at the same time!”**](https://github.com/jpedroschmitz/typescript-nextjs-starter/issues/87#issue-789642190)<br>
-> — Arafat Zahan
-
-> [**“I can really recommend the Next.js Typescript Starter repo as a solid foundation for your future Next.js projects.”**](https://corfitz.medium.com/create-a-custom-create-next-project-command-2a6b35a1c8e6)<br>
-> — Corfitz
-
-> [**“Brilliant work!”**](https://github.com/jpedroschmitz/typescript-nextjs-starter/issues/87#issuecomment-769314539)<br>
-> — Soham Dasgupta
-
-## Showcase
-
-List of websites that started off with Next.js TypeScript Starter:
-
-- [hygraph.com](https://hygraph.com)
-- [rocketseat.com.br](https://www.rocketseat.com.br)
-- [unfork.vercel.app](https://unfork.vercel.app)
-- [cryptools.dev](https://cryptools.dev)
-- [Add yours](https://github.com/jpedroschmitz/typescript-nextjs-starter/edit/main/README.md)
 
 ## Documentation
 
